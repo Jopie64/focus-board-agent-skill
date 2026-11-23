@@ -20,6 +20,8 @@ A Focus Board is a plain-Markdown Logseq graph in git shared by the human and ag
 - **Agent inbox**: journal entries referencing `[[<YourAgentName>]]` or `#inbox` are candidates to enrich, link, or triage.
 - **Editing safely**: Logseq auto-saves to disk; check `git status` before writing, keep edits surgical, and never commit the user's unrelated in-progress edits.
 
-## Bootstrapping
+## References
 
-Load `references/bootstrap.md` when creating a new Focus Board repository.
+| File | Load when |
+|------|-----------|
+| `references/bootstrap.md` | Creating a new Focus Board repository |
