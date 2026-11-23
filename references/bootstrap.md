@@ -5,8 +5,9 @@ Create a new git repository (`main` branch) with this layout, matching the user'
 ## Layout
 
 - `journals/` — daily files (`YYYY-MM-DD.md`); seed with today's file.
-- `pages/` — `Focus.md` (the five buckets, `type:: dashboard`), `contents.md` (sidebar shortcuts to `[[Focus]]` and key pages), and any initial work-item pages.
-- `logseq/custom.css` — create an empty file upfront so Logseq does not generate an untracked file on first open.
+- `pages/Focus.md` — the five buckets (`type:: dashboard`), plus any initial work-item pages in `pages/`.
+- `pages/contents.md` — create upfront with sidebar shortcuts to `[[Focus]]` and key pages so Logseq does not generate an untracked file on first open.
+- `logseq/custom.css` — create an empty file upfront for the same reason.
 - `logseq/config.edn` — configure ISO journal filenames, `:todo` workflow, default home page, and property-page exclusions so metadata keys do not clutter the graph:
 
 ```clojure
