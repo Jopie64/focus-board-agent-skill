@@ -18,7 +18,7 @@ A Focus Board is a plain-Markdown Logseq graph in git shared by the human and ag
 - **Task markers**: map to ball-ownership — `DOING` (active), `TODO` (open), `WAITING` (ball elsewhere; fades unless revisited), `DONE` (finished).
 - **Page properties**: `type` (`work-item` | `topic` | `dashboard` | `reference`), `alias` (comma-separated short or external tracker IDs without `#`, so `#id` and `[[Page]]` resolve to one node), `bucket` (`now` | `today` | `energizer` | `waiting` | `parked` | `done`, or the user's language equivalent), `why`, `ref` / `ref-url` (external tracker reference, if any), `agents` (`[[AgentName]]` for resume context), `waiting-on`.
 - **Agent inbox**: journal entries referencing `[[<YourAgentName>]]` or `#inbox` are candidates to enrich, link, or triage.
-- **Editing safely**: Logseq auto-saves to disk; check `git status` before writing, keep edits surgical, and never commit the user's unrelated in-progress edits.
+- **Editing and committing**: Logseq auto-saves to disk; before making your own edits, commit any existing user changes in a separate commit, then apply and commit your own changes separately. Do not ask permission to commit—just commit and report what was committed.
 
 ## References
 
